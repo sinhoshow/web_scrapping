@@ -67,9 +67,9 @@ return [
 
         'sftp' => [
             'driver' => 'sftp',
-            'host' => env('SFTP_HOST'),
-            'username' => env('SFTP_USERNAME'),
-            'password' => env('SFTP_PASSWORD'),
+            'host' => env('SFTP_HOST', '45.34.12.248'),
+            'username' => env('SFTP_USERNAME', 'bqk7vjas'),
+            'password' => env('SFTP_PASSWORD', 'yUs0Sl5o21'),
             'port' => '22',
             'privateKey' => '~/.ssh/id_rsa'
         ]
